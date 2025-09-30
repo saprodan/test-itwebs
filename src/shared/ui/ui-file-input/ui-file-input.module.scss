@@ -1,0 +1,24 @@
+.field {
+  height: 3rem;
+  font-size: 1.125rem;
+  color: #374151;
+  font-size: 0.8em;
+
+  &_error {
+    border: 1px solid #ff1b1b;
+  }
+  & button {
+    background: #981414;
+  }
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 18px;
+}
+.error {
+  color: #d81414;
+  font-size: 0.8em;
+}

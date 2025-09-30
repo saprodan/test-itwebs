@@ -1,0 +1,28 @@
+.field {
+  border-radius: 0.5rem;
+  border: 1px solid #d1d5db;
+
+  &:focus {
+    border-color: #3b82f6; // замените на ваш цвет c2
+    outline: none;
+  }
+
+  padding: 1rem 1rem;
+  font-size: 1.125rem;
+  color: #374151;
+
+  &_error {
+    border: 1px solid #ff1b1b;
+  }
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 18px;
+}
+.error {
+  color: #d81414;
+  font-size: 0.8em;
+}

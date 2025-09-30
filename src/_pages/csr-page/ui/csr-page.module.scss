@@ -1,0 +1,33 @@
+.main {
+  padding: 36px 0;
+}
+
+.title {
+  font-size: 2em;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.content {
+  margin-top: 24px;
+  line-height: 2em;
+}
+
+.loader {
+  display: flex;
+  margin: 32px 0;
+  color: var(--color-main-1);
+  align-items: center;
+  justify-content: center;
+}
+
+.todo {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.checkbox {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}

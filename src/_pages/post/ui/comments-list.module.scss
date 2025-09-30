@@ -1,0 +1,15 @@
+.comments {
+  padding: 28px 0;
+}
+
+.comments__title {
+  font-size: 1em;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.comments__list {
+  display: flex;
+  gap: 28px;
+  flex-direction: column;
+}

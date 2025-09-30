@@ -1,0 +1,46 @@
+.modal {
+  min-width: 600px;
+  @media (width <= 760px) {
+    min-width: auto;
+  }
+}
+
+.closeBtn {
+  top: 10px;
+  right: 10px;
+  @media (width <= 550px) {
+    top: 5px;
+    right: 5px;
+  }
+}
+
+.title {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.submitBtn {
+  display: block;
+  padding: 12px 32px;
+  margin-left: auto;
+  margin-top: 18px;
+}
+
+.loader {
+  display: flex;
+  padding: 50px;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-main-1);
+}
+
+.success {
+  font-size: 1.5em;
+  font-weight: 600;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 50px;
+}
