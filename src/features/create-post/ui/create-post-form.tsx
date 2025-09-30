@@ -107,7 +107,7 @@ export function CreatePostForm({ isVisible, onClose }: CreatePostFormProps) {
           <UiButton
             className={styles.submitBtn}
             type="submit"
-            disabled={isSubmitting}
+            disabled={isSubmitting || !!errors.root}
             fill
           >
             {isSubmitting ? "Sending..." : "Create"}
